@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![DeskTop-view](https://drive.google.com/file/d/142dO7AUSk_Sv8GRLQLH02tRWJytPfTET/view?usp=sharing)
-![Mobile-view](https://drive.google.com/file/d/1XiusRsfU8tKOWxcwbjAZUJDzKMqJzGaT/view?usp=sharing)
+![DeskTop-view](https://github.com/EzzatTarek12/OrderSummaryComplete/blob/main/Desktop-view.png)
+![Mobile-view](https://github.com/EzzatTarek12/OrderSummaryComplete/blob/main/Mobile-view.png)
 ### Links
 
 - Live Site URL: (https://ezzattarek12.github.io/OrderSummaryComplete/)
