@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![DeskTop-view](url: C:\Users\ezzat\OneDrive\Pictures\Skærmbilleder\Desktop-view.png)
-![Mobile-view](url: C:\Users\ezzat\OneDrive\Pictures\Skærmbilleder\Mobile-view.png)
+![DeskTop-view](https://drive.google.com/file/d/142dO7AUSk_Sv8GRLQLH02tRWJytPfTET/view?usp=sharing)
+![Mobile-view](https://drive.google.com/file/d/1XiusRsfU8tKOWxcwbjAZUJDzKMqJzGaT/view?usp=sharing)
 ### Links
 
 - Live Site URL: (https://ezzattarek12.github.io/OrderSummaryComplete/)
