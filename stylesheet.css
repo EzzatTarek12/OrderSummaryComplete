@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+body {
+  background: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0;
+}
+button,
+a {
+  cursor: pointer;
+}
+.summary__card {
+  /* border: 3px solid orange; */
+  background-color: white;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  max-width: 310px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  transform: translateY(-50%);
+}
+.summary__card--info {
+  color: hsl(223, 47%, 23%);
+  padding: 1.8rem;
+}
+.summary__card--info > h2 {
+  font-weight: 900;
+  margin-top: 0.2rem;
+}
+.summary__card--info > p {
+  color: hsl(224, 23%, 55%);
+  font-size: 1rem;
+  line-height: 1.8;
+}
+.plan__info {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 1rem;
+  font-weight: 900;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem;
+  margin: 1rem 0;
+  width: 1;
+}
+.plan__info p {
+  line-height: 1.6;
+  margin-left: 1rem;
+}
+.plan__info a {
+  text-align: right;
+  font-size: 0.8rem;
+  flex-grow: 2;
+}
+.plan__info a:hover,
+.plan__info a:active {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+.plan__info span {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+
+.payment__btn {
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 16px 64px 0 hsl(224, 49%, 72%);
+  color: white;
+  font: inherit;
+  font-weight: bold;
+  font-size: 0.9rem;
+  display: block;
+  margin: 1.6rem auto;
+  padding: 0.9rem;
+  width: 100%;
+}
+.payment__btn:hover,
+.payment__btn:active {
+  background-color: hsl(224, 23%, 55%);
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+.cancel__btn {
+  background: transparent;
+  border: none;
+  color: hsl(224, 23%, 55%);
+  font: inherit;
+  font-weight: 900;
+}
+.cancel__btn:hover,
+.cancel__btn:active {
+  color: hsl(223, 47%, 23%);
+  transition-duration: 0.3s;
+}
+@media (min-width: 750px) {
+  body {
+    background: url(images/pattern-background-desktop.svg) no-repeat;
+    background-size: cover;
+    background-position: 0 -2.6rem;
+  }
+  .overlay {
+    background: rgba(224, 232, 255, 0.8);
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+  }
+  .summary__card {
+    width: 25%;
+    min-width: 302px;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+}
